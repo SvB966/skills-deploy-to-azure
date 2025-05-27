@@ -7,10 +7,10 @@ on:
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   ###############################################
-  ### GitHub username inserted below ###
+  ### Replace <username> with GitHub username ###
   ###############################################
-  DOCKER_IMAGE_NAME: SvB966-azure-ttt
-  AZURE_WEBAPP_NAME: SvB966-ttt-app
+  DOCKER_IMAGE_NAME: <username>-azure-ttt
+  AZURE_WEBAPP_NAME: <username>-ttt-app
   ###############################################
 
 jobs:
